@@ -42,6 +42,17 @@ Best output consistency
 
 Final Choice: Function-calling method due to its high accuracy and JSON format reliability.
 
+Output Structure:
+Each review was transformed into a JSON object with the following format:
+{
+  "Sentiment": "Positive",
+  "Tags": ["Food Quality", "Ambiance"],
+  "Priority": "Low",
+  "Suggested_Action": "Share compliment with kitchen team",
+  "First_Reply": "Thank you so much for the wonderful feedback! We’re thrilled you loved the flavors and our tiramisu."
+}
+
+
 Summary of Results:
 
 - 100% of reviews successfully tagged with relevant categories
